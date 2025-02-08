@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirti Fate - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+            backdrop-filter: blur(10px);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+        .glass-card:hover {
+            transform: translateY(-5px);
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <img src="profile_photo.jpg" alt="Profile Photo" class="profile-img">
+        <h1 class="mt-3">Kirti Fate</h1>
+        <p>Data Scientist | Machine Learning Enthusiast | AI Developer</p>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="https://github.com/Kirtifate" class="btn btn-dark"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/KIRTI-FATE-2386B5179" class="btn btn-primary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="glass-card text-center p-3">
+                    <h3>Technical Skills</h3>
+                    <p>Python, SQL, Pandas, NumPy, TensorFlow, Keras, MySQL</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="glass-card text-center p-3">
+                    <h3>Education</h3>
+                    <p>M.Tech in Scientific Computing, Modeling & Simulation</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="glass-card text-center p-3">
+                    <h3>Projects</h3>
+                    <p>AI Recipe Generator, Laptop Price Prediction, Data Analysis</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
